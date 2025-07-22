@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>From-Scratch HTML</title>
+  <link rel="stylesheet" href="Styles.html/styles.css.html">
+</head>
+<body style="background-color: #e0f7fa;">
+  <h1>Aaron's Cycling Fan Page</h1>
+
+  <!-- Ordered list with embedded unordered list -->
+  <h2>Grand Tours</h2>  
+  <ol>
+        <li>Tour De France - First edition: 1903 | Distance (2025 edition): 3,492 km | The Tour de France is the most prestigious and widely followed cycling race in the world. Held every July, it commands global attention and attracts the strongest field. With high-altitude battles in the Pyrenees and Alps, iconic climbs like Alpe d’Huez and Mont Ventoux, and massive crowds lining the roads, the Tour is the ultimate test of endurance, tactics, and team strategy. The leader’s yellow jersey—the Maillot Jaune—symbolizes supremacy in the sport. The Tour is often considered the most complete Grand Tour due to its balance of sprint stages, time trials, and climbs.</li>
+        <p>&nbsp;</p>
+        <li>Giro Di Italia - First edition: 1909 | Distance (2025 edition): 3,448 km | The Giro d’Italia is Italy’s crown jewel of cycling and typically takes place in May. Known for its dramatic mountain climbs in the Alps and Dolomites, unpredictable weather, and punishing gradients, the Giro is often considered the most unpredictable and technical of the Grand Tours. The race favors all-rounders with climbing prowess and time trial skill, and its pink leader’s jersey—the Maglia Rosa—is one of the most coveted in the sport. The Giro also showcases Italy’s rich cultural and geographic diversity, from coastal roads to snow-capped peaks.</li> 
+        <p>&nbsp;</p>
+        <li>Vuelta De Espana - First edition: 1935 | Distance (2024 edition): 3,153 km | The Vuelta a España, typically held in late August and September, is known for its brutally steep climbs, extreme heat, and explosive racing. It’s considered the most mountainous Grand Tour, with summit finishes on infamous ramps like the Alto de l’Angliru and Lagos de Covadonga. Riders targeting the Vuelta often include those peaking late in the season or recovering from injuries earlier in the year. The red jersey—the Maillot Rojo—goes to the general classification leader. Though historically seen as the third-ranked Grand Tour, the Vuelta has grown in stature and often produces thrilling, aggressive racing.</li>
+        
+
+    <h2>5 Monuments of Cycling</h2>
+
+    <h10>The 5 Monuments of Cycling</h10>  
+    <h10>Together, these five races form the foundation of cycling’s history and prestige. Each one tests a different skillset—from the endurance of Milan–San Remo to the raw power and finesse required at Paris–Roubaix—and winning even one is a career-defining feat.</h10>  
+    <p>&nbsp;</p>
+
+     <ul>
+        <li>Milan-San Remo - 2025 Edition: 116th | Distance: 288 km - Milan–San Remo, known as La Primavera (“The Spring”), is the first Monument of the season and the longest one-day race on the calendar. First held in 1907, it tests endurance, patience, and timing. The mostly flat route ends with two key climbs—the Cipressa and Poggio—before a fast, technical descent into San Remo. It suits sprinters who can climb or punchy attackers who time it right. The real challenge is the sheer length and the tension of waiting for the final moves.</li>
+        <p>&nbsp;</p>
+        <li>Tour of Flanders 2025 Edition: 109th | Distance: 270.8 km - Belgium’s beloved Ronde, first held in 1913, is brutal and beautiful. The race twists through Flanders over steep, cobbled climbs like the Oude Kwaremont and Paterberg, often under cold, windy skies. Crashes and mechanicals are frequent, and riders must be powerful and tactically smart to survive. The chaotic nature and national pride make it one of the most meaningful victories in pro cycling.</li>
+        <p>&nbsp;</p>
+        <li>Paris-Roubaix - 2025 Edition: 122nd | Distance: 260.1 km - Called The Hell of the North, Paris–Roubaix is the most punishing Monument. Since 1896, it has challenged riders with over 50 km of brutal cobblestones before ending in the iconic Roubaix velodrome. Rain turns it to mud, while dry conditions create choking dust. Winning requires strength, skill, luck, and toughness—more than any other one-day race, it’s about survival. </li>
+        <p>&nbsp;</p>
+        <li>Liege-Bastonge-Liege - 2025 Edition: 111th | Distance: 254.5 km - La Doyenne (“The Old Lady”) is the oldest Monument (since 1892) and a grinder’s race. Set in Belgium’s Ardennes, the route features dozens of short, steep climbs that punish the legs all day. There’s rarely one decisive attack—it’s a war of attrition favoring climbers and puncheurs who can handle repeated efforts deep into the race. </li>
+        <p>&nbsp;</p>
+        <li>Il Lombardia - 2025 Edition: 119th | Distance: 238 km -Known as The Race of the Falling Leaves, Il Lombardia is the climber’s Monument, held in October when riders are fatigued from a full season. First run in 1905, it features long climbs like Madonna del Ghisallo and often the Muro di Sormano. Technical descents and changing weather add to the challenge. It’s both stunning and savage, rewarding those with endurance, finesse, and late-season form. </li>
+        
+        
+      </ul>
+  </ol>
+
+  <!-- Image -->
+  <img src="../HTML FInal Project V2/Images/ScreenshotSL8.png" alt="SL8">
+
+    <p>&nbsp;</p>
+
+  <h2>Greg Lemond's Amazing Tour De France Win in 1989!</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/-_3WiYvHGVQ" 
+    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+  <!-- On-page anchor -->
+  <a href="#bottom">Jump to bottom of page</a>
+  <p>&nbsp;</p>
+
+  <!-- Tableau graph -->
+  <h2>112 Years of the Tour de France</h2>
+  <div class='tableauPlaceholder' id='vizContainer'></div>
+  <script type='text/javascript' src='https://public.tableau.com/javascripts/api/tableau-2.min.js'></script>
+  <script type='text/javascript'>
+    var viz;
+    window.onload = function() {
+      var containerDiv = document.getElementById("vizContainer");
+      var url = "https://public.tableau.com/views/20170710-LeBrutalTourdeFrance/LeBrutalTour?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link";
+      var options = { width: "2000px", height: "1200px" };
+      viz = new tableau.Viz(containerDiv, url, options);
+    };
+  </script>
+
+  <p id="bottom">You made it to the bottom!</p>
+  <br>
+  <a href="index.html">Back to Resume</a>
+</body>
+</html>
